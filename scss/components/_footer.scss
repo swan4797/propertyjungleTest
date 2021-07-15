@@ -1,0 +1,32 @@
+.footer {
+  padding: 3.5em 0;
+  color: #ffffff;
+  font-family: "Overpass", sans-serif;
+  overflow: hidden;
+
+  .footer-logo {
+    line-height: 0.95em;
+    a {
+      font-family: "Roboto Slab", serif;
+      font-size: 3.5rem;
+      color: #ffffff;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.62rem;
+      font-weight: 100;
+      color: #a3a3a1;
+    }
+  }
+
+  .copyright {
+    line-height: 0.95em;
+    p {
+      margin: 0;
+      font-size: 0.65rem;
+      font-weight: 100;
+    }
+  }
+}

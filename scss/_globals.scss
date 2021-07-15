@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // overflow-x: hidden;
+}
+
+html {
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #34342f;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}

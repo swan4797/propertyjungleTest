@@ -1,0 +1,67 @@
+.banner-image {
+  background-image: linear-gradient(
+      0deg,
+      rgba(214, 214, 214, 0.38279061624649857) 0%,
+      rgba(14, 14, 14, 0.24833683473389356) 1%,
+      rgba(9, 9, 10, 0.365983893557423) 69%
+    ),
+    url(../images/hero-image.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 80%;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+
+  .content {
+    font-family: "Overpass", sans-serif;
+    width: 30%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+
+    h1 {
+      text-align: left;
+      font-size: 2rem;
+      margin: 0.7em 0;
+    }
+
+    p {
+      font-size: 0.75rem;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 855px) {
+    .content {
+      left: 10%;
+      width: 45%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .content {
+      left: 10%;
+      width: 45%;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.65em;
+      }
+    }
+  }
+
+  @media screen and (max-width: 395px) {
+    .content {
+      width: 70%;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

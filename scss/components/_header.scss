@@ -1,0 +1,52 @@
+nav {
+  font-family: "Roboto Slab", serif;
+
+  .container {
+    margin: 0;
+  }
+
+  .navbar-brand {
+    font-size: 3.5rem;
+  }
+
+  .nav-item {
+    &:not(:last-child) {
+      margin-right: 2em;
+    }
+
+    &:last-child {
+      width: 200px;
+    }
+    .nav-link {
+      font-family: sans-serif;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      @media screen and (max-width: 1200px) {
+        letter-spacing: 0;
+        font-size: 0.51rem;
+      }
+
+      @media screen and (max-width: 991px) {
+        letter-spacing: 0;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .margin-logo {
+    margin-right: 0.65em;
+  }
+
+  .gap-link {
+    margin-right: 4em;
+  }
+
+  @media screen and (min-width: 989px) {
+    .navbar-nav {
+      align-items: center;
+    }
+  }
+}

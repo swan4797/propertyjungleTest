@@ -1,0 +1,84 @@
+figure {
+  position: relative;
+  background-color: #34342f;
+  overflow: hidden;
+
+  img {
+    width: 80%;
+    margin-top: 3em;
+    margin-left: 4em;
+  }
+
+  figcaption {
+    background-color: #fbb03b;
+    width: 45%;
+    padding: 5em 3em;
+    position: absolute;
+    top: 60%;
+    right: 8%;
+
+    p {
+      font-family: "Overpass", sans-serif;
+      font-size: 1rem;
+      font-weight: 100;
+      color: #ffffff;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    figcaption {
+      width: 50%;
+      right: 5%;
+      padding: 4em 2em;
+      font-size: 0.55rem;
+    }
+  }
+
+  @media screen and (max-width: 930px) {
+    figcaption {
+      width: 60%;
+      padding: 3em;
+
+      p {
+        font-size: 0.55rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    img {
+      width: 80%;
+      margin-top: 3em;
+      margin-left: 1em;
+    }
+
+    figcaption {
+      line-height: 0.7em;
+      padding: 1em;
+      p {
+        font-size: 0.65rem;
+      }
+
+      .btn-primary {
+        padding: 0.1em;
+      }
+    }
+  }
+
+  @media screen and (max-width: 478px) {
+    img {
+      width: 80%;
+      margin-top: 3em;
+      margin-left: 1em;
+    }
+
+    figcaption {
+      width: 60%;
+      padding: 0.9em;
+
+      p {
+        font-size: 0.4rem;
+      }
+    }
+  }
+}
